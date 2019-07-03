@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/bpptika-wall.jpg) fixed no-repeat center/cover;
+}
+
+#container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 30em;
+  /* border: 2px solid #333333;  */
+}
+
+/* Biodata modify */
+#bio {
+  margin: 1.5em;
+  /* border: 1px solid yellow; */
+}
+#bio img {
+  display: block;
+  margin: 0 auto;
+  max-height: 250px;
+}
+#bio table {
+  box-shadow: 2px 5px 5px 2px lightgrey;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+}
+#bio table tr:nth-child(2) th,
+#bio table tr:nth-child(3) th {
+  font-size: 1.1em;
+}
+
+/* Text Modify */
+.text-justify {
+  text-align: justify;
+}
+
+.lh-3 {
+  line-height: 30px;
+}
